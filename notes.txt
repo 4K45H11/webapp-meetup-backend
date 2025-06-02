@@ -1,0 +1,35 @@
+PRD to build backend part:
+
+1. create file and folder setup -✅ 
+2. install required dependencies -✅ 
+3. create server- ✅
+4.create db models. -✅
+    i> event -✅
+    ii> speaker -✅
+5.connect server with database. -✅
+6.create json file to seed data. -✅
+    i>test by adding a data object by createEvent; -✅
+7.create routes:
+    i> get: /api/v0.1/events -✅
+    ii> get: /api/v0.1/events/:eventId -------------pen..
+    iii> get: /api/v0.1/events/type/:isOnline -✅
+    iv> get: /api/v0.1/events/tag/:tagName -✅
+    v> get: /api/v0.1/events/title/:titleName -✅
+8.create required database operation functions. -✅
+9.test the server requests via api call in postman. -✅
+10.host in vercel.
+
+
+
+learnings:
+
+1. When you require or import a file, all top-level code in that file runs immediately.
+If the file has a function call (like seedData()) outside of a function or export, that code executes as a side effect of importing.
+
+2. testing functions in server.js codes:
+createSpeaker()
+seedData()
+seedEvents()
+
+const events = await readEventsByTitle('Marketing Hacks for Startups')
+console.log(JSON.stringify(events, null, 2))

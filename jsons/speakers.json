@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Usen Bolt",
+        "specialization": "Sprinter",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Usen+Bolt"
+    },
+    {
+        "name": "Ted Morsby",
+        "specialization": "CEO, Apple",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Tim+Cook"
+    },
+    {
+        "name": "Srisnat Giri",
+        "specialization": "Bussiness",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Bastab+Giri"
+    },
+    {
+        "name": "Bibhuti Bondhyopadhay",
+        "specialization": "Writer",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Bibhuti Bondhyopadhay"
+    },
+    {
+        "name": "Swarup S",
+        "specialization": "Bussiness",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Swarup S"
+    },
+    {
+        "name": "Anil J",
+        "specialization": "Farmaer",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Anil J"
+    },
+    {
+        "name": "Marshal Ericson",
+        "specialization": "Lawyear",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Marshal Ericson"
+    },
+    {
+        "name": "Robin S",
+        "specialization": "Jernalist",
+        "profilePictureUrl": "https://placehold.co/100x100?text=Robin S"
+    }
+    
+]

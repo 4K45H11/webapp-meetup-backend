@@ -1,0 +1,183 @@
+[
+  {
+    "title": "Tech Innovations 2025",
+    "host": "FutureTech Org",
+    "details": "Discover the future of technology at Tech Innovations 2025, where industry leaders unveil cutting-edge developments across AI, robotics, and sustainable tech. The event features keynote speeches, panel discussions, live demos, and networking opportunities. Whether you're a tech enthusiast, developer, or entrepreneur, this conference provides insights into upcoming trends shaping the digital world. Get a chance to meet CEOs and innovators driving the next technological revolution. Limited seats available, so register early and be part of the transformation that will define the next decade. Join us for an inspiring, informative, and game-changing experience in the tech industry.",
+    "addInfo": {
+      "dressCode": "Business Casual",
+      "ageLimit": 18
+    },
+    "tag": ["tech", "digital"],
+    "startDate": "2025-07-12",
+    "endDate": "2025-07-12",
+    "startTime": "10:00",
+    "endTime": "17:00",
+    "location": "San Francisco Conference Center",
+    "price": 150,
+    "isOnline": false,
+    "speakers":["683aaea221676d65b9b4bd53","683b3015db73915e467e2476"]
+  },
+  {
+    "title": "World Culture Day",
+    "host": "Global Connect",
+    "details": "Join us at World Culture Day, a vibrant celebration of global traditions, music, art, and food. Explore cultural exhibits, taste international cuisines, enjoy traditional dance and music performances, and take part in engaging workshops. This family-friendly event promotes cross-cultural understanding and appreciation in a festive, inclusive environment. Whether you're showcasing your own heritage or exploring others, you'll leave enriched by the diversity of the human experience. Activities are designed for all ages, and the event fosters a spirit of unity, respect, and curiosity. Come dressed in your cultural attire and celebrate with people from around the world.",
+    "addInfo": {
+      "dressCode": "Traditional Attire",
+      "ageLimit": 0
+    },
+    "tag": ["culture", "literature"],
+    "startDate": "2025-08-01",
+    "endDate": "2025-08-01",
+    "startTime": "12:00",
+    "endTime": "20:00",
+    "location": "New York Central Park",
+    "price": 20,
+    "isOnline": false,
+    "speakers":["683b3015db73915e467e2478","683aaf393d45f7fe6ac37a88"]
+  },
+  {
+    "title": "AI in Marketing Summit",
+    "host": "MarketMind AI",
+    "details": "The AI in Marketing Summit explores how artificial intelligence is revolutionizing the marketing world. Attend thought-provoking sessions led by experts in AI, data science, and branding. Learn how to use predictive analytics, personalization engines, and automation tools to optimize campaigns and improve ROI. Gain hands-on experience with AI-powered tools transforming social media, customer segmentation, and content strategy. This event is ideal for marketing professionals, data analysts, and startup founders looking to harness AI's potential. From case studies to future trends, you'll gain valuable insights into building smarter, more efficient marketing systems that resonate with today’s tech-savvy consumers.",
+    "addInfo": {
+      "dressCode": "Formal",
+      "ageLimit": 21
+    },
+    "tag": ["marketing", "tech"],
+    "startDate": "2025-09-10",
+    "endDate": "2025-09-10",
+    "startTime": "09:30",
+    "endTime": "16:30",
+    "location": "Los Angeles Expo Hall",
+    "price": 200,
+    "isOnline": false,
+    "speakers":["683b3015db73915e467e2476","683b3015db73915e467e2474"]
+  },
+  {
+    "title": "Digital Nomad Lifestyle Webinar",
+    "host": "Remote Works",
+    "details": "Ever dreamed of working remotely while traveling the world? The Digital Nomad Lifestyle Webinar is your gateway to that dream. Hear from seasoned digital nomads who share real-world experiences on managing work-life balance, finding remote jobs, budgeting, and staying productive on the road. This interactive session also covers visa tips, digital tools, and community building for location-independent professionals. Whether you're a freelancer, remote worker, or entrepreneur, you'll gain actionable tips and inspiration. The webinar is free and accessible online, making it a perfect starting point for anyone curious about remote work and global mobility in the digital age.",
+    "addInfo": {
+      "dressCode": "Casual",
+      "ageLimit": 16
+    },
+    "tag": ["digital"],
+    "startDate": "2025-06-15",
+    "endDate": "2025-06-15",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "location": "Online",
+    "price": 0,
+    "isOnline": true,
+    "speakers":["683b3015db73915e467e247e"]
+    
+  },
+  {
+    "title": "The Future of Geopolitics",
+    "host": "Policy Watch",
+    "details": "In a world of shifting alliances and rising global tensions, understanding geopolitics is more important than ever. This event brings together policy experts, diplomats, and academics to explore current international conflicts, economic power struggles, and the role of technology in global governance. Key topics include climate diplomacy, regional instability, cybersecurity, and emerging world powers. Through lectures, panel discussions, and Q&A sessions, participants will gain a nuanced view of the forces shaping our world. Whether you're a student, policymaker, or curious citizen, this is your chance to dive deep into the complex web of modern geopolitical affairs.",
+    "addInfo": {
+      "dressCode": "Formal",
+      "ageLimit": 18
+    },
+    "tag": ["geopolitics"],
+    "startDate": "2025-10-20",
+    "endDate": "2025-10-20",
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "location": "Berlin International Hall",
+    "price": 100,
+    "isOnline": false,
+    "speakers":["683b3016db73915e467e2480"]
+  },
+  {
+    "title": "Sports Science Expo",
+    "host": "Athlete Edge",
+    "details": "At the Sports Science Expo, discover the science behind peak athletic performance. This multi-day event features sessions on biomechanics, nutrition, injury prevention, and sports psychology. Attendees can experience live demonstrations of training tech, try out wearable devices, and interact with top-tier coaches, physiotherapists, and athletes. Explore the latest research on optimizing fitness and recovery. Ideal for sports professionals, students, and enthusiasts, the expo offers a mix of education, inspiration, and innovation. Whether you're training for your next marathon or working in physical therapy, you'll leave with practical knowledge to enhance performance and support athlete well-being.",
+    "addInfo": {
+      "dressCode": "Sporty",
+      "ageLimit": 15
+    },
+    "tag": ["sports", "tech"],
+    "startDate": "2025-09-05",
+    "endDate": "2025-09-07",
+    "startTime": "10:00",
+    "endTime": "18:00",
+    "location": "Chicago Sports Arena",
+    "price": 75,
+    "isOnline": false,
+    "speakers":["683b3014db73915e467e2471"]
+  },
+  {
+    "title": "Literary Fest 2025",
+    "host": "WordCraft Society",
+    "details": "Dive into a world of words at Literary Fest 2025, a three-day celebration of literature and storytelling. Meet your favorite authors, attend book readings, participate in writing workshops, and explore the vibrant book market. This event includes panels on contemporary fiction, poetry, translation, and publishing trends. Whether you're a casual reader, aspiring writer, or literary scholar, you'll find something to ignite your imagination. Interact with literary agents, discover indie publishers, and celebrate the power of stories to inspire, challenge, and connect us. Come be part of a passionate community that lives and breathes books.",
+    "addInfo": {
+      "dressCode": "Casual",
+      "ageLimit": 10
+    },
+    "tag": ["literature", "culture"],
+    "startDate": "2025-11-01",
+    "endDate": "2025-11-03",
+    "startTime": "09:00",
+    "endTime": "19:00",
+    "location": "London Book Hall",
+    "price": 50,
+    "isOnline": false,
+    "speakers":["683b3015db73915e467e247c"]
+  },
+  {
+    "title": "Culture & Cuisine Night",
+    "host": "Taste the World",
+    "details": "Experience a cultural journey through flavor at Culture & Cuisine Night, where global traditions come alive through food and art. Sample dishes from over 25 countries, each telling a story of its people and heritage. Enjoy traditional music and dance performances throughout the night, and engage with local cultural groups showcasing unique customs. Perfect for foodies, families, and culture lovers, this event offers an unforgettable evening of connection and discovery. Wear traditional clothing if you like, and bring your appetite for both knowledge and cuisine. Celebrate the diversity and richness of the world's cultures under one roof.",
+    "addInfo": {
+      "dressCode": "Cultural Wear",
+      "ageLimit": 12
+    },
+    "tag": ["culture"],
+    "startDate": "2025-12-15",
+    "endDate": "2025-12-15",
+    "startTime": "17:00",
+    "endTime": "23:00",
+    "location": "Toronto World Pavilion",
+    "price": 35,
+    "isOnline": false,
+    "speakers":["683b3015db73915e467e247c","683b3015db73915e467e247e","683b3016db73915e467e2480"]
+  },
+  {
+    "title":"Interactive session for learning digital painting basics.",
+    "host": "CreateLab",
+    "details": "The Beginner’s Guide to Digital Art workshop is designed for creatives ready to explore digital illustration and design. In this hands-on session, you’ll learn basic tools, color theory, shading, and composition using popular digital platforms. Whether you’re transitioning from traditional media or just starting out, the workshop builds your confidence through interactive tutorials and live feedback. Led by professional digital artists, it’s perfect for students, hobbyists, and aspiring illustrators. You’ll leave with your first digital artwork and a clear path for further learning. No prior experience required—just curiosity and a desire to create digitally.",
+    "addInfo": {
+      "dressCode": "Casual",
+      "ageLimit": 13
+    },
+    "tag": ["digital", "culture"],
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-05",
+    "startTime": "15:00",
+    "endTime": "18:00",
+    "location": "Online",
+    "price": 25,
+    "isOnline": true,
+    "speakers":["683b3015db73915e467e247a"]
+  },
+  {
+    "title": "Marketing Hacks for Startups",
+    "host": "GrowthBoost",
+    "details": "Startups need smart marketing, not big budgets. Join us for a dynamic session full of actionable marketing hacks specifically designed for startups. Learn guerrilla marketing tactics, content growth strategies, email list building, and how to leverage analytics for maximum reach. The event covers real-world case studies, quick-win ideas, and common pitfalls to avoid. Whether you're pre-launch or scaling up, these tools will help you gain traction and build a loyal audience. Engage with fellow entrepreneurs and gain access to templates and resources that simplify your marketing game. Learn fast, implement faster, and grow your startup smarter.",
+    "addInfo": {
+      "dressCode": "Business Casual",
+      "ageLimit": 18
+    },
+    "tag": ["marketing"],
+    "startDate": "2025-08-20",
+    "endDate": "2025-08-20",
+    "startTime": "11:00",
+    "endTime": "15:00",
+    "location": "Online",
+    "price": 40,
+    "isOnline": true,
+    "speakers":["683aaea221676d65b9b4bd53"]
+  }
+]

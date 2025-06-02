@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+// import fs from 'fs'
+// import path from 'path'
 import Speaker from '../models/speaker.model.js'
 //had to import Speaker otherwise giving error
 //as I have used Speaker model to populate data in 
@@ -9,37 +9,37 @@ import Event from '../models/event.model.js'
 
 
 
-export const seedEvents = async () => {
-    try {
-        const filePath = path.resolve('jsons', 'events.json')
+// export const seedEvents = async () => {
+//     try {
+//         const filePath = path.resolve('jsons', 'events.json')
 
-        const jsonData = fs.readFileSync(filePath)
-        const eventsData = JSON.parse(jsonData)
+//         const jsonData = fs.readFileSync(filePath)
+//         const eventsData = JSON.parse(jsonData)
 
-        for (let event of eventsData) {
-            const newEvent = new Event({
-                title: event.title,
-                host: event.host,
-                details: event.details,
-                addInfo: event.addInfo,
-                tag: event.tag,
-                startDate: event.startDate,
-                endDate: event.endDate,
-                startTime: event.startTime,
-                endTime: event.endTime,
-                location: event.location,
-                price: event.price,
-                isOnline: event.isOnline,
-                speakers: event.speakers
-            })
+//         for (let event of eventsData) {
+//             const newEvent = new Event({
+//                 title: event.title,
+//                 host: event.host,
+//                 details: event.details,
+//                 addInfo: event.addInfo,
+//                 tag: event.tag,
+//                 startDate: event.startDate,
+//                 endDate: event.endDate,
+//                 startTime: event.startTime,
+//                 endTime: event.endTime,
+//                 location: event.location,
+//                 price: event.price,
+//                 isOnline: event.isOnline,
+//                 speakers: event.speakers
+//             })
 
-            const savedEvent = await newEvent.save()
-        }
+//             const savedEvent = await newEvent.save()
+//         }
 
-    } catch (error) {
-        throw error
-    }
-}
+//     } catch (error) {
+//         throw error
+//     }
+// }
 
 export const readAllEvents = async () => {
     try {

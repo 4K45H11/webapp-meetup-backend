@@ -4,8 +4,8 @@ import dotenv from 'dotenv'
 
 //local utility imports
 import initializeDatabase from './db/db.conect.js'
-import {createSpeaker,seedData} from './utils/speaker.util.js'
-import{seedEvents,readAllEvents,readAllEventsByTag,readEventsByType,readEventsByTitle} from './utils/event.util.js'
+import {createSpeaker} from './utils/speaker.util.js'
+import{readAllEvents,readAllEventsByTag,readEventsByType,readEventsByTitle} from './utils/event.util.js'
 import eventRoutes from './routes/get.route.js'
 
 
@@ -32,7 +32,7 @@ const corsOrigins = {
 //middlewares
 app.use(express.json())
 app.use(cors(corsOrigins))
-app.use('/api/v0.1',eventRoutes)
+app.use('/events',eventRoutes)
 
 
 app.get('/',(req,res)=>{

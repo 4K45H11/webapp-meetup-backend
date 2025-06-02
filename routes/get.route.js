@@ -4,7 +4,7 @@ import { readAllEvents, readAllEventsByTag, readEventById, readEventsByTitle, re
 const router = express.Router()
 
 
-router.get('/events', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         const events = await readAllEvents()
         if (events) {
@@ -15,7 +15,7 @@ router.get('/events', async (req, res) => {
     }
 })
 
-router.get('/events/:eventId',async (req,res)=>{
+router.get('/:eventId',async (req,res)=>{
     try {
         const events = await readEventById(req.params.eventId)
         if (events) {
@@ -26,7 +26,7 @@ router.get('/events/:eventId',async (req,res)=>{
     }
 })
 
-router.get('/events/type/:isOnline', async (req, res) => {
+router.get('/type/:isOnline', async (req, res) => {
     try {
         const filterType = (req.params.isOnline.toLocaleLowerCase() === 'online')
 
@@ -41,7 +41,7 @@ router.get('/events/type/:isOnline', async (req, res) => {
     }
 })
 
-router.get('/events/tag/:tagName',async(req,res)=>{
+router.get('/tag/:tagName',async(req,res)=>{
     try {
         const events = await readAllEventsByTag(req.params.tagName)
         if (events) {
@@ -52,7 +52,7 @@ router.get('/events/tag/:tagName',async(req,res)=>{
     }
 })
 
-router.get('/events/title/:titleName',async(req,res)=>{
+router.get('/title/:titleName',async(req,res)=>{
     try {
         const events = await readEventsByTitle(req.params.titleName)
         if (events) {

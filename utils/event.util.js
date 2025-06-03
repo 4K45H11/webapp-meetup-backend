@@ -77,6 +77,7 @@ export const readEventsByType = async (isOnline) => {
     }
 }
 
+
 export const readEventsByTitle = async (eventTitle) => {
     try {
         const events = await Event.findOne({ title: eventTitle })
@@ -84,7 +85,13 @@ export const readEventsByTitle = async (eventTitle) => {
             throw new Error("Event with the given title not found");
         }
 
+        return events;
+
     } catch (error) {
         throw error;
     }
 }
+
+//hand to handle here only because it is used in
+//search bar of frontend to get data by searching
+//so search values can be wrong.

@@ -80,8 +80,11 @@ export const readEventsByType = async (isOnline) => {
 export const readEventsByTitle = async (eventTitle) => {
     try {
         const events = await Event.findOne({ title: eventTitle })
-        return events
+        if (!events) {
+            throw new Error("Event with the given title not found");
+        }
+
     } catch (error) {
-        throw error
+        throw error;
     }
 }
